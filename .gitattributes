@@ -1,0 +1,10 @@
+# See https://github.com/github/linguist
+src/**/*.ts linguist-detectable
+
+public/index.html linguist-vendored
+*.min.js linguist-generated
+public/**/*.html linguist-vendored
+Cargo.lock linguist-generated
+*.min.css linguist-generated
+*.jpg binary
+*.bat text eol=crlf
